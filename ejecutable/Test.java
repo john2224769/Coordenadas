@@ -18,6 +18,9 @@ public class Test
 
         System.out.println(c1.equals(c3) ? "Las coordenadas son iguales" : "Las coordenadas son distintas");
 
+        double distancia = c1.calcularDistancia(c2);
+        System.out.println("La distancia entre el punto 1 y el punto 2 es de: "+ distancia+"\n");
+
     }
 
 }
